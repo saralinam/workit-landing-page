@@ -1,0 +1,216 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+  padding: 0;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+  padding: 0;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/*UTILLITY*/
+body {
+  width: 100hw;
+  height: 400hv;
+  max-width: 100hw;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+.wrapper {
+  background-color: var(--white);
+  font-family: "Manrope", serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header {
+  background-color: var(--Dark-Purple, #24053e);
+  z-index: -1;
+  border-bottom-left-radius: 70% 20%;
+  border-bottom-right-radius: 70% 20%;
+  height: 250px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem 0 3rem;
+}
+
+.btn_primary {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline #44ffa1 3px;
+  text-underline-offset: 8px;
+}
+
+.btn_primary:hover {
+  color: #44ffa1;
+}
+
+.text-wrapper {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero_section {
+    position: relative;
+    margin-bottom: 60px;
+   
+}
+
+.hero_img {
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ position: absolute;
+ margin-bottom: 0;
+ translateY: 50%;
+}
+
+.group_3 {
+  margin: 20px auto;
+  display: flex;
+  flex: space-between;
+  justify-content: center;
+  margin-bottom: 150px;
+  background-color: var(--light-white);
+  border-bottom-left-radius: 85% 3%;
+  border-bottom-right-radius: 85% 3%;
+  padding: 9.6875rem 4rem 2rem 4rem;
+}
+
+.subtitle {
+  margin: 10px auto;
+}
+p {
+}
+
+.title {
+  color: white;
+}
+
+.tailored {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline #44ffa1 3px;
+  text-underline-offset: 8px;
+}
+
+.btn_secondary {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline #44ffa1 3px;
+  text-underline-offset: 8px;
+}
+
+
+
+
+.img-founder{
+    margin-left: 40px;;
+ position: absolute;
+ transform: translate(20%, -30%);
+ z-index: -1;
+}
+
+.first-to-test{
+    width: 500px;
+    margin-left: auto;
+    margin-right: 60px;
+    background-color: var(--Dark-Purple, #24053e);
+    color:white;
+    z-index: 400;
+    
+}
+
+.founder-section{
+    position: relative;
+}
+.footer-section{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.flex_footer_socials{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 130px;
+}
