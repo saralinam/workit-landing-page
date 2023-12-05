@@ -1,3 +1,5 @@
+
+
 /* Box sizing rules */
 *,
 *::before,
@@ -60,7 +62,7 @@ svg {
 
 .wrapper {
   background-color: var(--white);
-  font-family: "Manrope", serif;
+  font-family: Fraunces;
   font-size: 1rem;
   line-height: 1.75;
   max-width: 800px;
@@ -144,7 +146,7 @@ nav{
 
 .btn-num{
     border-radius: 50%;
-    padding: 0 0.9rem;
+    padding: 0 1rem;
     color: #24053E;
     min-width: 2rem;
     border: 1px solid var(--Davys-Grey, #584D62);
@@ -354,6 +356,7 @@ button{
   }
   .group_3{
     margin-bottom: 0;
+    padding: 0 50px;
   }
 
   .main-group-items{
@@ -361,6 +364,10 @@ button{
     display: flex;
     flex-direction: column;
     margin-bottom:0;
+  }
+
+  .main-group-items .btn-num{
+    margin-right: 20px;
   }
 
   .sub-group{
@@ -391,31 +398,71 @@ button{
 }
 
 .img-founder{
-  margin-left: 80px;
-  left: -140px !important;
+ margin-left: 120px;
+left: -140px !important;
  transform: scale(0.6);
- bottom: 230px;
+ bottom: 250px;
 }
 
 .first-to-test{
-  margin-left: 100px;
+  margin-left: 150px;
   width: 400px;
- 
+  
 }
+
 .btn-footer{
   font-size: 1rem;
 }
 
 .footer-section{
-  margin-top: 90%;
+  margin-top: 75%;
+  margin-bottom: 60px;
+  gap: 20px;
 }
-
 }
 
 /* Desktop version*/
 @media (min-width: 64rem){
   .main-group-items{
    display: flex !important;
+    flex-direction: row;
+   margin: 20px;
+  }
+
+  .sub-group{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 0;
+  }
+  .founder-section{
+    display: block;
+    align-items: center;
+    margin-top: 100px;
+    position:relative;
+    right: -100px;
+  }
+  .button{
+    padding-left: 20px;
+  }
+
+  .img-founder{
+  margin-left: 30px;
+  top: -130px;
+
+
+  }
+  .first-to-test{
+    margin-left: 0;
+    width: 70%;
+    padding-right: 0;
+    margin-left: 100px;
+  }
+
+  .footer-section{
+    margin-top: 20px;
   }
 
 }
